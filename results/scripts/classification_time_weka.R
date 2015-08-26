@@ -3,7 +3,7 @@ nb <- c(0.002, 0.006, 0.008, 0.012, 0.014, 0.018, 0.019)
 
 g_range <- range(0, rf, nb)
 
-png("/home/elch/Documents/master_thesis/results/img/CLASSIFICATION_TIME_WEKA.png",500,500)
+png("../img/CLASSIFICATION_TIME_WEKA.png",500,500)
 plot(rf, type="o", col="blue", ylim=g_range, 
    axes=FALSE, ann=FALSE)
 

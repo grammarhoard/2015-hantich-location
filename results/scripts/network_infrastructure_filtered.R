@@ -4,7 +4,7 @@ weka_wifi_bt <- c(3.02, 3.22, 3.30, 3.45, 4.0)
 
 g_range <- range(0,5.5)
 
-png("/home/elch/Documents/master_thesis/results/img/NETWORK_INFRASTRUCTURE_FILTERED.png",500,500)
+png("../img/NETWORK_INFRASTRUCTURE_FILTERED.png",500,500)
 plot(jsat_wifi, type="o", col="blue", ylim=g_range, 
    axes=FALSE, ann=FALSE)
 

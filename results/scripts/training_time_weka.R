@@ -3,7 +3,7 @@ nb <- c(0.015, 0.041, 0.065, 0.095, 0.127, 0.158, 0.172)
 
 g_range <- range(0, rf, nb)
 
-png("/home/elch/Documents/master_thesis/results/img/TRAINING_TIME_WEKA.png",500,500)
+png("../img/TRAINING_TIME_WEKA.png",500,500)
 plot(rf, type="o", col="blue", ylim=g_range, 
    axes=FALSE, ann=FALSE)
 

@@ -3,7 +3,7 @@ nb <- c(0.003, 0.008, 0.013, 0.014, 0.016, 0.02, 0.023)
 
 g_range <- range(0, 0.04)
 
-png("/home/elch/Documents/master_thesis/results/img/CLASSIFICATION_TIME_JSAT.png",500,500)
+png("../img/CLASSIFICATION_TIME_JSAT.png",500,500)
 plot(rf, type="o", col="blue", ylim=g_range, 
    axes=FALSE, ann=FALSE)
 
